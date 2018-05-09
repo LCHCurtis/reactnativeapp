@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "cloudy": "git+https://gitlab.com/csci4140/js",
     "eslint": "^4.19.1",
     "moment": "^2.22.1",
     "native-base": "^2.4.3",
