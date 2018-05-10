@@ -2066,15 +2066,13 @@ cliui@^4.0.0:
 
 "cloudy@git+https://gitlab.com/csci4140/js":
   version "0.0.1"
-  resolved "git+https://gitlab.com/csci4140/js#ac68c99e3b11e37a99dd99893cff00a78611f43a"
+  resolved "git+https://gitlab.com/csci4140/js#eab322b313e7f358c640c69d74f06b405de8252e"
   dependencies:
-    chai "^4.1.2"
     ipfs "git+https://github.com/ipfs/js-ipfs.git#3019fc0"
     ipfs-pubsub-room "git+https://github.com/cloudy-db/ipfs-pubsub-room.git#patch-for-new-ipfs"
     ipfs-repo "^0.x"
     jest "^22.4.3"
     libp2p-webrtc-star "git+https://github.com/isaackwan/js-libp2p-webrtc-star.git#allow-simple-peers-options-v0.14.0"
-    mocha "^5.0.5"
     orbit-db "^0.19.7"
     re-emitter "^1.1.3"
     rxjs "6.1.0"
@@ -4051,7 +4049,7 @@ interface-datastore@^0.4.2, interface-datastore@~0.4.0, interface-datastore@~0.4
     pull-stream "^3.6.1"
     uuid "^3.1.0"
 
-invariant@^2.2.0, invariant@^2.2.2:
+invariant@^2.0.0, invariant@^2.2.0, invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -5473,7 +5471,7 @@ level-js@^2.2.4, level-js@~2.2.4:
     typedarray-to-buffer "~1.0.0"
     xtend "~2.1.2"
 
-"level-js@github:timkuijsten/level.js#idbunwrapper":
+level-js@timkuijsten/level.js#idbunwrapper:
   version "2.2.3"
   resolved "https://codeload.github.com/timkuijsten/level.js/tar.gz/18e03adab34c49523be7d3d58fafb0c632f61303"
   dependencies:
@@ -5878,6 +5876,10 @@ lock-me@^1.0.3:
     once "^1.4.0"
   optionalDependencies:
     fs-ext "github:baudehlo/node-fs-ext#master"
+
+lodash-es@^4.17.5:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.10.tgz#62cd7104cdf5dd87f235a837f0ede0e8e5117e05"
 
 lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
   version "4.5.0"
@@ -7999,6 +8001,17 @@ react-proxy@^1.1.7:
   dependencies:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
+
+react-redux@^5.0.7:
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.7.tgz#0dc1076d9afb4670f993ffaef44b8f8c1155a4c8"
+  dependencies:
+    hoist-non-react-statics "^2.5.0"
+    invariant "^2.0.0"
+    lodash "^4.17.5"
+    lodash-es "^4.17.5"
+    loose-envify "^1.1.0"
+    prop-types "^15.6.0"
 
 react-test-renderer@16.3.1:
   version "16.3.1"

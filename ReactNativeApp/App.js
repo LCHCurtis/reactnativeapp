@@ -7,7 +7,7 @@
 import React, {Component} from 'react';
 import {MaterialIcons} from 'react-native-vector-icons/MaterialIcons'; // Version can be specified in package.json
 import {TabNavigator, TabBarBottom} from 'react-navigation'; // Version can be specified in package.json
-import { Container, Header, Content, Card, CardItem, Text, Icon, Right, Left, List, ListItem, Switch, Body } from 'native-base';
+import { Container, Header, Content, Card, CardItem, Text, Icon, Right, Left, List, ListItem, Body } from 'native-base';
 
 import {Hoshi} from 'react-native-textinput-effects';
 import {
@@ -25,6 +25,7 @@ class DashboardScreen extends React.Component {
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
                 <Text>Home!</Text>
             </View>
+
         );
     }
 }
