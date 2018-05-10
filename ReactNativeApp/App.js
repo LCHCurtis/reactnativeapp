@@ -323,18 +323,3 @@ const dateStyles = StyleSheet.create({
         color: '#121212',
     },
 });
-
-let swipeBtns = [
-    {
-        text: 'Delete',
-        backgroundColor: 'red',
-        underlayColor: 'rgba(0, 0, 0, 1, 0.6)',
-        onPress: () => { this.deleteNote(rowData) }
-    },
-    {
-        text: 'Duplicate',
-        backgroundColor: 'blue',
-        underlayColor: 'rgba(0, 0, 0, 1, 0.6)',
-        onPress: () => { this.duplicateNote(rowData) }
-    }
-];
