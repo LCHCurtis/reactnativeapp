@@ -5,9 +5,10 @@
  */
 
 import React, {Component} from 'react';
-import {MaterialIcons} from 'react-native-vector-icons/MaterialIcons'; // Version can be specified in package.json
+import {Ionicons} from 'react-native-vector-icons/Ionicons'; // Version can be specified in package.json
 import {TabNavigator, TabBarBottom} from 'react-navigation'; // Version can be specified in package.json
 import { Container, Header, Content, Card, CardItem, Text, Icon, Right, Left, List, ListItem, Body } from 'native-base';
+import { RunNumber } from 'cloudy';
 
 import {Hoshi} from 'react-native-textinput-effects';
 import {
@@ -16,7 +17,6 @@ import {
     View,
     ScrollView,
     TouchableOpacity,
-    KeyboardAvoidingView
 } from 'react-native';
 
 class DashboardScreen extends React.Component {
@@ -247,7 +247,7 @@ export default TabNavigator(
                 // <MaterialIcons name="icon-name" size={20} color="#4F8EF7" />
                 // You can return any component that you like here! We usually use an
                 // icon component from react-native-vector-icons
-                return <MaterialIcons name={iconName} size={20} color="#4F8EF7"/>;
+                return <Ionicons name={iconName} size={20} color="#4F8EF7"/>;
             },
         }),
         //tabBarComponent: TabBarBottom,
