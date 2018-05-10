@@ -11,6 +11,8 @@
     "eslint": "^4.19.1",
     "history": "^4.7.2",
     "native-base": "^2.4.3",
+    "node-pre-gyp": "^0.10.0",
+    "nodejs-mobile-react-native": "^0.1.4",
     "react": "16.3.1",
     "react-native": "0.55.3",
     "react-native-elements": "0.18.5",
