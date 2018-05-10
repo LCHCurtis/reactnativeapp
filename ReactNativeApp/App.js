@@ -173,10 +173,10 @@ class SettingScreen extends React.Component {
                     <List>
                         <ListItem icon>
                             <Left>
-                                <Icon name="md-person-add" />
+                                <Icon name="ios-create" />
                             </Left>
                             <Body>
-                            <Text>Add to a Network</Text>
+                            <Text>Create your own network</Text>
                             </Body>
                             <Right>
                                 <Icon name="arrow-forward" />
@@ -184,10 +184,32 @@ class SettingScreen extends React.Component {
                         </ListItem>
                         <ListItem icon>
                             <Left>
-                                <Icon name="md-git-network" />
+                                <Icon name="ios-phone-portrait" />
                             </Left>
                             <Body>
-                            <Text>Manage your own network</Text>
+                            <Text>Allow other device to join your network</Text>
+                            </Body>
+                            <Right>
+                                <Icon name="arrow-forward" />
+                            </Right>
+                        </ListItem>
+                        <ListItem icon>
+                            <Left>
+                                <Icon name="ios-add" />
+                            </Left>
+                            <Body>
+                            <Text>Join to a network</Text>
+                            </Body>
+                            <Right>
+                                <Icon name="arrow-forward" />
+                            </Right>
+                        </ListItem>
+                        <ListItem icon>
+                            <Left>
+                                <Icon name="ios-undo" />
+                            </Left>
+                            <Body>
+                            <Text>Reset all configuration</Text>
                             </Body>
                             <Right>
                                 <Icon name="arrow-forward" />
